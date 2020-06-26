@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body> 
+  
+  <br><br><br><br><br><br><br><br>
+  <div class = title >Simple Calculator</div>
+  <br>
+  <table class = "center" >
+  <tr>
+  <td><button class="btn_opt"  onclick="clr()">C</button></td> 
+  <td colspan="3"><input type="text" class="input1" id="edu">+</button></td>
+  <!-- clr() function will call clr to clear all value -->
+  </tr>
+  <tr>
+  <!-- creating buttons and assigning values-->
+
+  <td><button class="btn_opt"  onclick="first_num('+')">+</button></td> 
+  <td><button class="btn_num"  onclick="show_data('1')">1</button> </td>
+  <td><button class="btn_num"  onclick="show_data('2')">2</button> </td>
+  <td><button class="btn_num"  onclick="show_data('3')">3</button> </td>
+  </tr>
+  <tr>
+    <td><button class="btn_opt"  onclick="first_num('-')">-</button></td> 
+    <td><button class="btn_num"  onclick="show_data('4')">4</button></td>
+    <td><button class="btn_num"  onclick="show_data('5')">5</button></td>
+    <td><button class="btn_num"  onclick="show_data('6')">6</button></td>
+  </tr>
+  <tr>
+    <td><button class="btn_opt"  onclick="first_num('*')">*</button></td> 
+    <td><button class="btn_num"  onclick="show_data('7')">7</button> </td>
+    <td><button class="btn_num"  onclick="show_data('8')">8</button> </td>
+    <td><button class="btn_num"  onclick="show_data('9')">9</button> </td>
+  </tr>
+  <tr>
+    <td><button class="btn_opt"  onclick="first_num('/')">/</button></td> 
+    <td><button class="btn_num"  onclick="show_data('.')">.</button> </td>
+    <td><button class="btn_num"  onclick="show_data('0')">0</button> </td>
+    <!-- Evaluating function call eval()-->
+    <td><button class="btn_num"  onclick="solve()">=</button> </td>
+  </tr>
+  <!-- Calculation display-->
+  <tr>
+    <td colspan="4"><input type="text" class="input2" id="det"></td>
+    </tr>
+  </table>
+  <p>Design & Develop By Rashid Ali</p>
+</body>
+<script src="app.js"></script>
+</html>
+

@@ -1,0 +1,96 @@
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+ 
+}
+.title{
+border-radius: 10px;
+margin-bottom: 10px;
+text-align:center;
+width: 350px;
+height: 45px;
+margin:0 auto;
+color:white; 
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+/* background:white; */
+border: solid black 2px;
+font-size: 35px;
+font-weight: bold;
+}
+.center{margin:0 auto;
+}
+
+.btn_num
+{
+border-radius: 10px;
+background-color:gray;
+color: black;
+border-color:gray;
+width:90%;
+height:90%;
+margin-left: 5px;
+margin-right: 5px;
+font-size: 100%;
+font-weight: bold; 
+} 
+.btn_opt
+{
+border-radius: 20px;
+background-color:darkorange;
+color: black;
+border-color:gray;
+width:90%;
+height:90%;
+margin-left: 2px;
+font-size: 150%;
+font-weight: bold; 
+} 
+.input1
+{
+border-radius: 10px;
+text-align: right;
+background-color:darkgreen;
+background-color:#2F4F4F;
+background-color:#696969;
+border-color: black ;
+width:95%;
+height:80%;
+color:white;
+margin-left:3px;
+margin-top:20px;
+font-family: ;
+font-size: 140%;
+font-weight: bold;
+}
+.input2
+{
+border-radius: 10px;
+text-align: right;
+background-color:#ddA0DD;
+border-color: black ;
+width:96%;
+height:80%;
+color:black;
+margin-left:3px;
+margin-top:10px;
+margin-bottom:10px;
+font-size: 100%;
+font-weight: bold;
+}
+table td {
+  background-color: #c0c0c0;
+  border: 3px black solid;
+}
+
+table {
+  border: 3px black solid;
+  width: 350px;
+  height: 300px;
+  /* border : 5; */
+  }
+p{
+  color :white;
+  margin-left :570px;
+}
+.opt{ margin-right :10px;
+}
